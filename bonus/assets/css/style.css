@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("images/concrete_seamless.png";)
+  background: url("../images/concrete_seamless.png");
 }
 
 * {
@@ -145,7 +145,7 @@ h3, h2 {
 }
 
 .work:nth-child(even) {
-  margin-right: 40px;
+  margin-right: 30px;
 }
 
 .work img {
@@ -233,24 +233,25 @@ body {
 nav {
   margin-right: 56px;
     }
-    
+   
 #main-container {
   width: 650px;
   margin-left: 56px;
     }
-    
-    
+   
+/* contact page */
+   
 #contact-form ul {
   padding: 0;
   list-style-type: none;
 
     }
-  
+ 
 #contact-form li {
   margin-bottom: 10px;
     }
 
-    
+   
 }
 
 
@@ -265,82 +266,67 @@ nav {
 nav {
   margin-right: 18px;
     }
-    
-    
+   
+   
 #main-container {
   width: auto;
   margin: 0 18px;
     }
-    
-    
-
-    
+   
+   
+/* main */
+   
 .auth-image {
     width: 325px;
     }
-    
+   
+/* contact page */
+   
+#contact-form ul {
+  padding: 0;
+  list-style-type: none;
 
+    }
+ 
+#contact-form li {
+  margin-bottom: 10px;
+    }
 
-    
+   
+/* portfolio */
 .work {
+  position: relative;
+  float: left;
   width: 48%;
   margin: 2% auto 0;
+  overflow: auto;
 }    
    
     .work:nth-child(even) {
   margin-right: 4%;
 }
-      
-    
+   
 }
 
 @media screen and (max-width: 640px){
-    
-
-#masthead {
-  margin: 0 0 30px;
-}
-    
+   
 #logo {
   margin: 0;
   width: 100%;
     }
 
 nav {
-    margin: 0;
-    padding: 16px;
-    width: 100%;
-    text-align: center;
+  margin-right: 18px;
     }
-    
-.main-section {
-  margin: 60px 0 40px;
-
-}
-    
-
-
-    
-.auth-image {
-    width: 100%;
-    margin: 10px 0 24px;
-    }
-    
-    
-
-    
-.work {
-  float: none;
-  width: 100%;
-  margin: 40px auto;
-  overflow: auto;
-}    
    
-    .work:nth-child(even) {
-  margin-right: 0px;
-}
-    
-    
+   
+#main-container {
+  width: auto;
+  margin: 0 18px;
+    }
+   
 }
 
-    
+
+
+   
